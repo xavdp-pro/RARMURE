@@ -72,4 +72,3 @@ In left small sandbox inset replace "EACH REVIEW IN A PINNED SANDBOX" with "EXPE
 Replace bidirectional arrow between DURABLE EXACT RECORDS and DERIVED RAG INDEX with one-way arrow from durable records to derived index, labeled "Derived indexing". Index never writes exact authoritative source.
 Preserve required review coverage, review of master, combined validation before master-authorized promotion, optional SHAPER and deferred research notes, badge CONCEPT — NOT IMPLEMENTED. No other changes.
 ```
-
