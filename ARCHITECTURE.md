@@ -171,6 +171,8 @@ Each proposal names its base revision and assumptions. Concurrent edits remain d
 
 Avoiding ownership locks does not eliminate coordination. Short atomic state transitions may still be needed to record a coherent accepted state. Syntax-level merge success cannot establish behavioral compatibility, and disjoint files can still conflict through shared assumptions.
 
+The precise claim is **concurrent exploration without ownership locks**. It is not a claim that the runtime is mutex-free, lock-free, or wait-free. Separate working views avoid long-lived exclusive reservations of code elements by agents. Internal structures, durable transactions, and coherent promotion still need a concrete synchronization protocol, which may use mutexes or other mechanisms. Exclusive master authority is an access rule, not a demonstrated concurrency progress guarantee.
+
 ## Durability and event delivery
 
 The proposed persistence strategy is a durable change journal plus periodic state snapshots. Exact choices of transaction store, journal layout, and recovery machinery remain open.

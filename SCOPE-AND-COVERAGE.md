@@ -29,7 +29,7 @@ Date: 2026-10-07. Delivery type: concept documentation and retained illustration
 | C19 | Latent communication and internal model modification | [Research](RESEARCH-AND-ROADMAP.md) | Deferred |
 | C20 | SHAPER responsibility mapping and contextual continuity | [Vision](VISION.md), [Continuity](CONTEXT-AND-CONTINUITY.md) | Conceptual mapping only |
 | C21 | French conversation and English project artifacts | [Agent instructions](AGENTS.md) | Recorded rule |
-| C22 | Concept illustrations | [Visuals](visuals/README.md) | Retained; non-normative |
+| C22 | Concept illustrations | [Visuals](visuals/README.md) | Refreshed for the current concept; non-normative |
 | C23 | Distinct containment, dependency, authority, and exploration relationships | [Architecture](ARCHITECTURE.md), [Foundations](SHAPER-FOUNDATIONS.md) | Documented |
 | C24 | Prepared context and required context horizons by role | [Continuity](CONTEXT-AND-CONTINUITY.md), [Cooperation](AGENT-COOPERATION.md) | Documented |
 | C25 | Conditional lessons and separation of observations from interpretations | [Continuity](CONTEXT-AND-CONTINUITY.md), [Foundations](SHAPER-FOUNDATIONS.md) | Documented |
@@ -80,6 +80,8 @@ The present clarification extends coverage to C33–C36 and revises C03, C05–C
 The vocabulary review establishes [canonical terms](GLOSSARY.md) and updates technical prose and diagrams: code tree versus exploration graph, mutable working view versus fixed candidate, view issuance versus promotion, and empirical evidence versus formal proof. Assessment labels now state whether criteria were assessed and met; search status remains separate. C37–C40 cover these definitions, intent-first development, future-model reassessment, and the proposed harness integration. Retained images remain illustrative and may use earlier shorthand.
 
 ## Source coverage and delivery limits
+
+The current visual refresh replaces the three illustration files, displays all three in the project README, and records their generation briefs and interpretation limits. The working title is **Real-Time Fractal Vibe Coding**: live coordination is a design intention, not a measured timing guarantee. This refresh concerns C02–C03, C09–C16, C20–C22, C33–C37, and C41; it introduces no runtime or benchmark evidence.
 
 The parallel coordination extension covers C41: separate concurrent working views, bounded asynchronous work items, authorized provider routes, complementary candidate and master-selection reviews, and explicit handling of missing reviews and stale evidence. These are design contracts. Documentation verification does not establish concurrent execution, provider compatibility, or a speed gain.
 

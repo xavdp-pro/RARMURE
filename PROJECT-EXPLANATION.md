@@ -2,6 +2,8 @@
 
 Date: 2026-10-07. Status: concept and design intentions; no application implementation.
 
+Working description: **RARMURE — Real-Time Fractal Vibe Coding**. We are drawing the plans for an environment where human intent guides parallel agent exploration and a recurring construction, review, and experiment cycle at several scales. Live coordination connects intentions and interactions as they evolve; it is not a demonstrated real-time deadline guarantee. The name describes the intended experience, while the explicit contracts below define how it could be made dependable.
+
 RARMURE proposes a shared environment for parallel agents to explore software constructions, challenge them, test identified candidates, and select coherent results against a human specification. Its defining idea is to connect exact code with intent, relationships, alternatives, and evidence throughout that process.
 
 This reference preserves the current reasoning in two forms: a short explanation and a detailed account with an idea coverage map. It synthesizes the project concept rather than reproducing private conversations. Specialized documents remain the canonical contracts for their respective subjects; [RARMURE Vocabulary](GLOSSARY.md) governs terminology. Future changes must update both the relevant contract and this explanation when its meaning changes.
@@ -134,6 +136,8 @@ Two agents may investigate the same function simultaneously through separate wor
 Each proposal records its base, target identities, assumptions, dependencies, and expected effects. Relevant source or dependency changes require reassessment or an explicit successor against the newer base. Advancing the present never silently rebases existing views or switches running test inputs. Avoiding ownership locks still permits short atomic recording and promotion operations.
 
 ### Presence and intention registration
+
+The intended collaboration is **concurrent exploration without ownership locks**. This does not establish a mutex-free, lock-free, or wait-free runtime. Agents do not reserve code elements, while internal data structures, durable revision recording, and promotion may require mutexes, transactions, or another synchronization mechanism. Those implementation choices remain open.
 
 Presence tags indicate temporary activity on objects, files, or directories. They are non-exclusive and grant neither ownership nor permissions. Expiring presence does not erase durable intentions or contribution history.
 

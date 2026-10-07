@@ -1,10 +1,12 @@
 # RARMURE
 
-**Fractal Multi-Agent Code Synthesis**
+**Real-Time Fractal Vibe Coding**
 
 *From shared intent to tested software.*
 
 Status: **concept formalization only**. Created: **2026-10-07**.
+
+We are designing a fractal vibe coding environment: humans direct the purpose, while parallel agents explore, challenge, and test possible constructions through a recurring cycle at several scales. **Real-time** names the intended live coordination of intentions and interactions as work evolves; it does not claim a demonstrated latency bound or a working runtime. RARMURE remains the project name.
 
 RARMURE is a proposed environment in which agents explore, challenge, and mature software solutions inside a shared representation of a project. Exploration paths can fork recursively. Agents register their intentions, experiment in small sandboxes, and submit their proposals to counter-review. A master agent considers both local behavior and global coherence to select compatible options against human-defined requirements.
 
@@ -51,6 +53,16 @@ This cycle can recur at project, subsystem, function, and behavior levels. Explo
 ![Fractal collaboration with counter-review](visuals/03-counter-review-and-providers.png)
 
 *Concept illustration, not an implemented interface or proof of execution. The documents define the intended validation flow; see the visual notes for diagram limitations.*
+
+### Memory and present authority
+
+![Shared memory and present authority](visuals/01-shared-living-code-tree.png)
+
+### Fractal exploration and live coordination
+
+![Fractal exploration and live coordination](visuals/02-fractal-parallel-exploration.png)
+
+The three illustrations explain complementary views of the same concept. [Visual notes and generation prompts](visuals/README.md) identify their meaning and limits.
 
 ## Foundational commitments
 

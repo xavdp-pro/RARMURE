@@ -97,6 +97,12 @@ Search state and assessment are independent. The canonical search labels are `un
 
 **Semantic pointer** is an explanatory alias for **semantic reference**, never a C address or an embedding. **Fractal parallelism** describes a cooperation pattern recurring at several scales. **Mathematical breathing**, **living tree**, and **functional beauty** remain design metaphors, not claims of mathematical convergence or measured correctness.
 
+## Descriptive terms
+
+**Concurrent exploration without ownership locks** means agents do not reserve code elements against others' exploration. It does not imply a **mutex-free**, **lock-free**, or **wait-free** implementation. Internal synchronization and coherent revision transitions remain separate design questions; master authority alone establishes no progress guarantee.
+
+**Real-Time Fractal Vibe Coding** is RARMURE's working descriptive title. **Vibe coding** here means human intent guiding agent-assisted software construction, with explicit requirements, counter-review, and validation. **Fractal** names recurrence of that cycle across scales. **Real-time** names intended live coordination during work, not a measured latency guarantee or a completed runtime. Exploration forks and paths remain the precise terms for alternative futures; the title does not replace them.
+
 ## Worked vocabulary example
 
 The master issues base snapshot `B0` derived from present revision `P0`. Worker A develops working view `W1` and submits proposal `Q1`. Capturing its changes produces candidate `C1`; the corresponding move connects `B0` to `C1`. A later move produces `C2`, forming an exploration path with two moves. Neither candidate is the present.
