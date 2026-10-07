@@ -120,6 +120,47 @@ It means: **this fixed realization satisfies these stated criteria under these r
 
 It does not mean all alternatives have been explored, every future condition is covered, or the realization is the unique best solution.
 
+## Collaboration hypothesis and comparison
+
+The primary research question is whether a shared representation of code, intentions, dependencies, alternatives, and evidence supports better coordinated collective reasoning and fractal exploration. Agents should be able to investigate the same code elements concurrently without exclusive ownership reservations. Separate working views still preserve each contribution; this objective does not authorize uncontrolled writes to one mutable state or imply a mutex-free runtime.
+
+Better collaboration could be useful even when elapsed time is unchanged or greater. It must produce a benefit under declared criteria while preserving mandatory software requirements, authority, isolation, and recovery guarantees. The human must be able to assess the additional cost. A speed gain is a separate possible benefit, not the sole acceptance condition.
+
+A future evaluation should define useful collaboration through observable outcomes rather than model agreement or the amount of discussion:
+
+| Dimension | Proposed observation |
+| --- | --- |
+| Concurrent contributions | Overlapping investigations proceed without reserving code elements, and each attributed contribution remains available |
+| Interaction awareness | Relevant assumptions and dependencies become visible in time to examine them; missed interactions and unnecessary discussions are recorded |
+| Joint refinement | A discussion produces a justified successor, a compatible composition, or a clearly retained alternative; assess the result through relevant experiments |
+| Fractal exploration | Investigations at several scales yield useful alternatives and feed discoveries back into broader decisions within bounded search budgets |
+| Coherent outcomes | Selected candidates meet mandatory requirements and combined checks; count regressions and unresolved obligations |
+| Retained reasoning | A later participant can recover why alternatives were accepted or rejected, with the conditions and evidence still identifiable |
+| Resource trade-offs | Record elapsed time, model/tool cost, human intervention, review rounds, memory use, and master coordination load |
+
+Git worktrees can be part of a comparison baseline with shared intention records, communication, counter-review, and recursive exploration supplied by an orchestration layer. Do not compare a coordinated RARMURE design only with disconnected agents and attribute every difference to RAM or graph storage. The experiment must state which mechanisms differ. A worktree baseline does not replace RARMURE's intended virtual authoring in RAM or make Git its coordination engine.
+
+Compare equivalent tasks involving the same behavior and cross-element interactions, with comparable starting code, specifications, roles, model routes, tools, review coverage, and resource budgets. Declare outcome criteria before a run; use repeated cases where feasible and report uncertainty. An improvement in one dimension does not establish overall superiority. Equal or worse results are valid findings, and a simpler orchestration may remain preferable.
+
+Evaluate single-provider and multi-provider configurations separately, keeping the coordination comparison within each configuration. Distinguish changes in model capability from changes in collaboration mechanisms. Multiple providers may contribute complementary perspectives, but neither supplier diversity nor same-provider operation establishes error independence or better results. Compare shared history and retrieval separately where practical.
+
+This is an evaluation intention. No collaboration advantage, speed gain, or general superiority over worktrees has been demonstrated.
+
+## Verification beyond software
+
+The [broader collective-reasoning ambition](VISION.md#collective-reasoning-beyond-code) would reuse the cooperation cycle, not assume that software tests can validate every kind of conclusion. Each proposed domain needs an explicit objective, exact candidate artifacts, criteria, counter-evidence, uncertainty records, and identified human decision authority.
+
+| Potential domain | Candidate artifacts | Possible verification and limits |
+| --- | --- | --- |
+| Product conception | Needs, alternative designs, explicit trade-offs | Relevant user observations and scoped prototype evaluations; stakeholder preferences remain preferences |
+| Research | Questions, hypotheses, source-linked claims, analyses | Source examination, reproducible analysis or experiments where feasible; unsupported or inconclusive claims remain open |
+| System architecture | Interfaces, assumptions, dependency and failure models | Models, simulations, prototypes and operational observations within stated conditions; diagrams alone prove no behavior |
+| Decision preparation | Options, constraints, scenarios and rationale | Check evidence, assumptions and sensitivity to conditions; recommending an option does not authorize execution or establish a guaranteed outcome |
+
+These are possible directions, not qualified workflows. Keep observations separate from interpretations and selected policies. Distinguish an accepted design choice from an established factual claim. When empirical verification is unavailable, record what is supported, disputed, or unknown and the limits of the proposed decision. A convincing narrative, multiple-provider agreement, or master selection cannot turn missing evidence into proof.
+
+Evaluate whether collaboration improves supported conclusions, exposes consequential assumptions, preserves useful alternatives, and helps human decisions under declared criteria. Report costs and false agreement as well as useful discoveries. Success in software construction would not, by itself, qualify any of these domains. Their implementation, real-world trials, and execution require their own bounded scope and authorization.
+
 ## Performance claims about RARMURE itself
 
 ### Reassessment with future models

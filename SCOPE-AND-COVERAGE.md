@@ -4,7 +4,7 @@ Date: 2026-10-07. Delivery type: concept documentation and retained illustration
 
 ## Capability inventory
 
-[Short explanation and detailed concept](PROJECT-EXPLANATION.md) provides a consolidated account and maps every C01–C41 idea to its explanation. The subject documents below remain canonical; the synthesis introduces no additional implementation claim.
+[Short explanation and detailed concept](PROJECT-EXPLANATION.md) provides a consolidated account and maps every C01–C42 idea to its explanation. The subject documents below remain canonical; the synthesis introduces no additional implementation claim.
 
 | ID | Capability or idea | Canonical coverage | State |
 | --- | --- | --- | --- |
@@ -49,6 +49,11 @@ Date: 2026-10-07. Delivery type: concept documentation and retained illustration
 | C39 | Preserved SHAPER principles and evidence-based reassessment by future models | [Validation](REQUIREMENTS-AND-VALIDATION.md), [Foundations](SHAPER-FOUNDATIONS.md) | Documented; future gains unmeasured |
 | C40 | DeepSeek Harness plugin integration with an external RARMURE service | [Research](RESEARCH-AND-ROADMAP.md), [Source study](DEEPSEEK-HARNESS-PLUGIN-STUDY.md) | Official repository cloned and interfaces inspected; no plugin or runtime qualification |
 | C41 | Asynchronous parallel work, authorized per-role provider routing, and complementary review panels | [Cooperation](AGENT-COOPERATION.md), [Vocabulary](GLOSSARY.md), [Source study](DEEPSEEK-HARNESS-PLUGIN-STUDY.md) | Documented design; scheduling, routing, isolation, and benefits unqualified |
+| C42 | Collective reasoning beyond code, with software as the first laboratory and domain-specific verification | [Vision](VISION.md#collective-reasoning-beyond-code), [Validation](REQUIREMENTS-AND-VALIDATION.md#verification-beyond-software), [Research](RESEARCH-AND-ROADMAP.md#broader-ambition-and-code-first-qualification) | Exploratory; no domain extension implemented or validated |
+
+## Collaboration research objective
+
+The clarification of C03, C06–C10, C16–C17, C26, C34–C35, and C41 makes better coordinated collaboration an explicit hypothesis to test. Concurrent exploration of the same elements without ownership reservations and fractal collective reasoning remain core objectives. A speed gain is optional. The [evaluation contract](REQUIREMENTS-AND-VALIDATION.md#collaboration-hypothesis-and-comparison) compares observed benefits and costs with a similarly orchestrated worktree baseline, separately within single-provider and multi-provider scenarios. This is documented intent; no implementation, benchmark, or collaboration advantage is established.
 
 ## Dependencies and decisions still required
 

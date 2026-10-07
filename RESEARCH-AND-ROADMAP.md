@@ -6,6 +6,12 @@ Preserve and formalize the concept. Internal AI coding behavior modification is 
 
 Start with intent candidates. Introduce source code only for a bounded implementation with a useful outcome and explicit validation criteria; do not create a placeholder source tree now. Preserve SHAPER principles and model-independent requirements so future models can reassess the design or improve an implementation under the same evidence discipline.
 
+## Broader ambition and code-first qualification
+
+RARMURE could investigate coordinated collective reasoning in domains beyond code: product conception, research, system architecture, and decision preparation. Shared intentions, fractal exploration, counter-review and retained evidence are potentially reusable mechanisms. Their benefit outside software remains a separate hypothesis.
+
+Keep software construction as the first concrete laboratory. A broader direction must define the relevant objects, candidate artifacts, verification methods, uncertainty states and human acceptance criteria before an experiment is proposed. The [vision](VISION.md#collective-reasoning-beyond-code) and [verification boundary](REQUIREMENTS-AND-VALIDATION.md#verification-beyond-software) govern this distinction. This clarification authorizes no general-purpose platform implementation or non-code experiment.
+
 ## Practical baseline versus deeper research
 
 | Direction | Meaning | Current status |
@@ -116,6 +122,8 @@ No external benchmark numbers are adopted as RARMURE performance targets or resu
 | 5. Selection | Can the master compare profiles and justify compatible choices? | Counter-reviewed decisions against explicit criteria |
 | 6. Evaluation | Does the system improve accepted outcomes relative to a simpler baseline? | Comparable tasks, budgets, quality, time, and cost measurements |
 | 7. Optional research | Does a logical representation or latent channel add value? | Separate experiments with compatible models and suitable resources |
+
+The evaluation stage addresses the [collaboration hypothesis](REQUIREMENTS-AND-VALIDATION.md#collaboration-hypothesis-and-comparison): whether the shared representation and fractal exploration produce more useful coordination, within one provider or across several, than a comparable worktree-based orchestration. A speed gain is optional. Benefits, costs, and mandatory correctness constraints must be reported separately.
 
 These are proposed phase exits, not completed milestones or a committed schedule. A useful first experiment would use two workers on one interacting behavior, rather than begin with a universal language.
 

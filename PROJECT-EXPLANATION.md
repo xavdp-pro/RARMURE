@@ -48,7 +48,7 @@ This diagram illustrates one possible cycle. Reviews and experiments may repeat 
 
 ### Purpose and the human specification
 
-All agents serve one shared purpose: the human specification. Exploration must relate to a requirement, a necessary dependency, or an authorized investigation. The system should accelerate useful progress while keeping the resulting program coherent. Agent activity, token throughput, or the number of generated alternatives cannot substitute for an accepted useful result.
+All agents serve one shared purpose: the human specification. Exploration must relate to a requirement, a necessary dependency, or an authorized investigation. The system should support better coordinated collective reasoning and concurrent exploration of the same code elements without ownership reservations while keeping the resulting program coherent. A collaboration benefit could justify the system even without a speed gain, subject to mandatory requirements and explicit human assessment of resource costs. Agent activity, token throughput, or the number of generated alternatives cannot substitute for an accepted useful result.
 
 A requirement records its identity, statement, revision, authority, applicable conditions, and acceptance criteria. The project distinguishes mandatory constraints, acceptance thresholds, and optimization preferences. For example, rejection of unauthorized operations can be mandatory; response time under a stated workload can be a threshold; reduced memory use can be a preference among acceptable candidates.
 
@@ -326,6 +326,20 @@ French remains the conversation language. Documents, code, comments, prompts, te
 
 RARMURE is the working name and directory spelling, not a defined acronym. No remote publication follows automatically from this organization. No source scaffold is needed at the concept stage: introduce code only when an authorized bounded useful realization has explicit criteria. Exploration can begin with intent candidates, and an adopted intent baseline can be the initial present.
 
+### Collaboration as an experimental objective
+
+RARMURE investigates whether shared code objects, live intentions, retained evidence, and fractal exploration improve collaboration within one provider and across different providers. This is a potential benefit to test, not an established superiority claim. Useful outcomes could include preserved overlapping contributions, better detection of interacting assumptions, experimentally supported joint refinements, useful alternatives at several scales, and recoverable decision rationale. A speed gain is optional; elapsed time and coordination costs remain visible.
+
+Compare against a worktree-based orchestration given comparable communication, review, exploration, models, and budgets. Workspaces alone do not determine reasoning quality, and a simpler arrangement could perform equally well or better. Evaluate provider configurations separately so model capability is not mistaken for an effect of shared representation. The canonical [collaboration hypothesis and comparison](REQUIREMENTS-AND-VALIDATION.md#collaboration-hypothesis-and-comparison) defines the proposed observations and evidence limits.
+
+### Collective reasoning beyond code
+
+The broader ambition is a shared environment for better coordinated collective reasoning: an objective guides parallel hypotheses, recurring exploration at several scales, counter-review, verification, and reasoned selection. Potential domains include product conception, research, system architecture, and decision preparation. The retained graph would relate intentions, alternatives, assumptions, objections, evidence, and decisions, with domain-specific objects instead of presuming every object is executable code.
+
+Software construction remains the first concrete laboratory, where exact candidates and reproducible tests make part of the evaluation observable. Other domains require their own evidence and acceptance rules. Separate factual claims from preferences and selected decisions; preserve disagreements and uncertainty when a conclusion cannot be established. Master selection and agent consensus do not establish truth or authorize real-world action. Better supported outcomes, rather than discussion volume or agent count, define the intended value.
+
+This is exploratory extension C42, not a change to the initial software implementation perimeter or proof of a general-purpose thinking system. See the [broader vision](VISION.md#collective-reasoning-beyond-code) and [verification beyond software](REQUIREMENTS-AND-VALIDATION.md#verification-beyond-software).
+
 ### First useful qualification and phase exits
 
 The smallest proposed case uses two workers on one interacting behavior, identified views, fixed candidates, a meaningful objection, and an experiment that discriminates between proposals. Keyless service and mock-model checks can precede any authorized provider-backed evaluation. This avoids making a universal language or model modification a prerequisite.
@@ -399,6 +413,7 @@ The IDs below match the [capability inventory](SCOPE-AND-COVERAGE.md). This map 
 | C39 | SHAPER principles retained for evidence-based future improvement | [SHAPER](#shaper-foundations-and-context-continuity), [Future models](#learning-and-future-models) |
 | C40 | DeepSeek Harness plugin integration and source-study limits | [Harness integration](#deepseek-harness-plugin-integration) |
 | C41 | Parallel scheduling provider routes and plural counter-views | [Scheduling](#parallel-scheduling-at-several-scales), [Routes](#models-providers-and-authorized-routes), [Counter reviews](#multiple-counter-reviews-including-the-master) |
+| C42 | Broader collective reasoning, code-first qualification, and domain-specific evidence | [Broader reasoning](#collective-reasoning-beyond-code), [Collaboration objective](#collaboration-as-an-experimental-objective) |
 
 ## Canonical references
 

@@ -6,7 +6,17 @@ RARMURE begins with the image of a code tree in motion. It grows to discover pos
 
 Files remain important executable artifacts, but the working representation also carries purpose, relationships, proposed transformations, and evidence. An agent should be able to discover what an element does, why it exists, who is investigating it, what alternatives are being considered, and what has actually been tested.
 
-The purpose is to accelerate useful collective software work while maintaining coherence with a shared specification. Speed, quality, and efficiency gains are hypotheses to measure, not established properties of this concept.
+The primary purpose is to investigate better coordinated collective software construction: agents can explore the same code elements concurrently without ownership locks, share intentions, and challenge alternatives through fractal exploration. Better collaboration is a hypothesis to evaluate. A useful collaboration benefit could justify the system even without a speed gain, provided the resulting software meets mandatory requirements and the human accepts the resource trade-offs. Speed, quality, and efficiency gains remain separate hypotheses, not established properties of this concept.
+
+## Collective reasoning beyond code
+
+The broader ambition is to investigate a shared environment for coordinated collective reasoning. Product conception, research, system architecture, and decision preparation could also use explicit objectives, attributed intentions, branching hypotheses, counter-review, evidence, and retained decision rationale. The recurring cycle is: shared objective, parallel exploration, confrontation, verification, and reasoned selection.
+
+Software construction remains the first concrete laboratory. Exact candidates can be executed and assessed through reproducible observations, while the authority and recovery mechanisms can be tested mechanically. Passing software tests still has a scope; it does not establish universal correctness.
+
+A transfer to another domain would require its own object model, meaningful verification, and human acceptance criteria. A claim, an assumption, an observation, a preference, and a selected decision must remain distinguishable. Persuasive agreement between agents cannot establish a factual conclusion. The intended benefit is better supported results and decisions, not more discussion or more agents.
+
+This broader ambition is exploratory. No general-purpose reasoning platform or domain extension has been implemented or validated. The code-first scope and existing RAM working-view, authority, and evidence contracts remain the initial design focus.
 
 ## Mathematical breathing
 

@@ -10,6 +10,8 @@ We are designing a fractal vibe coding environment: humans direct the purpose, w
 
 RARMURE is a proposed environment in which agents explore, challenge, and mature software solutions inside a shared representation of a project. Exploration paths can fork recursively. Agents register their intentions, experiment in small sandboxes, and submit their proposals to counter-review. A master agent considers both local behavior and global coherence to select compatible options against human-defined requirements.
 
+The central research question is whether this shared representation and fractal exploration can produce **better collaboration**, within one provider or across several providers, than a comparable orchestration over separate workspaces. Concurrent work on the same code elements without ownership reservations is a core objective. A speed gain is optional; collaboration benefits and their costs must be evaluated explicitly. See [the collaboration hypothesis and comparison criteria](REQUIREMENTS-AND-VALIDATION.md#collaboration-hypothesis-and-comparison).
+
 The central object is a **living graph of possibilities and evidence**: requirements, exact source code, stable references, dependencies, intentions, alternatives, disagreements, decisions, and test results.
 
 Parallel workers explore alternatives through separate working views. Each role can use an authorized model/provider route, while complementary review panels challenge candidates and master selections. A bounded asynchronous scheduler coordinates these roles; supplier diversity and agent agreement remain distinct from evidence that requirements are met.
@@ -26,11 +28,13 @@ SHAPER OS is a conceptual inspiration, not a required software dependency. RARMU
 
 Public references: [SHAPER OS V1.15](https://github.com/xavdp-pro/SHAPER-OS-V1.15) and [SHAPER Three Layers](https://github.com/xavdp-pro/shaper-three-layers). The [foundation study](SHAPER-FOUNDATIONS.md) identifies the specific revisions informing this design.
 
+The broader research ambition is **coordinated collective reasoning beyond code**, potentially including product conception, research, system architecture, and decision preparation. Code remains the first concrete laboratory. Every additional domain would require its own evidence and acceptance rules; agent consensus cannot establish truth. See [the broader vision](VISION.md#collective-reasoning-beyond-code) and [domain-specific verification](REQUIREMENTS-AND-VALIDATION.md#verification-beyond-software).
+
 ## Read the concept
 
 | Document | Purpose |
 | --- | --- |
-| [Short explanation and detailed concept](PROJECT-EXPLANATION.md) | One continuous account of the concept, its rationale, open choices, and all 41 registered ideas |
+| [Short explanation and detailed concept](PROJECT-EXPLANATION.md) | One continuous account of the concept, its rationale, open choices, and all 42 registered ideas |
 | [Vision](VISION.md) | The living-tree image, mathematical breathing, and functional beauty |
 | [Architecture](ARCHITECTURE.md) | RAM, durable storage, semantic retrieval, references, and materialization |
 | [Agent cooperation](AGENT-COOPERATION.md) | Intentions, discussions, counter-review, master coordination, and providers |
