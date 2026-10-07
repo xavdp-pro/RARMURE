@@ -318,6 +318,8 @@ Candidate software experiments are separate from repairing the infrastructure th
 
 ### Repository organization and preservation
 
+The canonical repository is public at [xavdp-pro/RARMURE](https://github.com/xavdp-pro/RARMURE). Its original material is licensed under GNU AGPL version 3 only; [LICENSE](LICENSE) and the [README license section](README.md#license) state the terms and scope. The purpose is shared advancement of RARMURE and its covered derivatives, including modified network services. This does not automatically license every independent program produced using the tool.
+
 Two directories are intended for eventual independent public repositories. `working-conversations` holds edited English discussion syntheses and decision rationale. `intent-and-code` holds canonical intentions, specifications, vocabulary, and eventual implementation. Discussion notes inform canonical contracts without silently replacing them.
 
 French remains the conversation language. Documents, code, comments, prompts, tests, scripts, and commits are in English. Public material uses neutral provenance and excludes raw private transcripts, archive locations, credentials, unrelated projects, and private session identifiers.

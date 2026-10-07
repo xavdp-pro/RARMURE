@@ -84,3 +84,13 @@ This folder contains English documentation and concept illustrations. It contain
 Internal model behavior changes and direct latent communication remain deferred research. The architecture should be discussable and eventually testable through ordinary agent interfaces without making that research a prerequisite.
 
 Human conversation is in **French**. Project artifacts—including code, documentation, comments, tests, prompts, and commit messages—are in **English**.
+
+## License
+
+Copyright (C) 2026 Xavier de Poorter and contributors.
+
+RARMURE's original repository material is licensed under the **GNU Affero General Public License, version 3 only** (`AGPL-3.0-only`). See [LICENSE](LICENSE) for the complete terms. Third-party material retains its own applicable notices and licenses.
+
+The intent is to keep shared RARMURE improvements available under copyleft. Distribution of covered versions carries corresponding source obligations; a modified version supporting remote user interaction must offer its corresponding source to those users under section 13. Commercial use is permitted. Private modifications do not automatically require public release, and the license does not require submitting changes to this upstream repository.
+
+Independent projects created using RARMURE are not automatically licensed under AGPL merely because they use the tool; outputs are covered only when their content constitutes a covered work. This license governs RARMURE and its covered derivatives, not every program an agent may create.
